@@ -1,6 +1,10 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <div class="heading">
 	<div class="corners">
-		<img src="/images/items/mocha.png" alt="Mocha" />
+		<img src="{base}/images/items/mocha.png" alt="Mocha" />
 	</div>
 	<div class="title">
 		<h2>Mocha</h2>
@@ -22,15 +26,15 @@
 		<h3>Strategy:</h3>
 		<p class="light-gray text">
 			In spite of being half as effective, Mocha<span class="inline img"
-				>&nbsp;<img src="/images/items/mocha.png" alt="Mocha" /></span
+				>&nbsp;<img src="{base}/images/items/mocha.png" alt="Mocha" /></span
 			>
 			can be a decent alternative to true <span class="blue text">movement speed</span> and
 			<span class="yellow text">attack speed</span>
 			items like Paul's Goat Hoof<span class="inline img"
-				>&nbsp;<img src="/images/items/pauls-goat-hoof.png" alt="Paul's Goat Hoof" /></span
+				>&nbsp;<img src="{base}/images/items/pauls-goat-hoof.png" alt="Paul's Goat Hoof" /></span
 			>
 			and Solier's Syringe<span class="inline img"
-				>&nbsp;<img src="/images/items/soldiers-syringe.png" alt="Soldier's Syringe" /></span
+				>&nbsp;<img src="{base}/images/items/soldiers-syringe.png" alt="Soldier's Syringe" /></span
 			>.
 		</p>
 		<p class="light-gray text">
