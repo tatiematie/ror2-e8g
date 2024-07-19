@@ -1,23 +1,18 @@
-import adapter from '@sveltejs/adapter-auto';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import adapter from '@sveltejs/adapter-static';
 
-/** @type {import('@sveltejs/kit').Config} */
 const config = {
-    kit: {
-        adapter: adapter({
-            pages: 'build',
-            assets: 'build',
-            fallback: null,
-            precompress: false
-        }),
-        prerender: {
-            default: true,
-        },
-        trailingSlash: 'always',
-        paths: {
-            base: '/ror2-e8g'
-        }
-    }
+  kit: {
+    // Ensure to change the paths.base to your repo name
+    paths: {
+      base: process.env.NODE_ENV === 'production' ? '/ror2-e8g' : ''
+    },
+    adapter: adapter({
+      // default options are shown. these are optional
+      pages: 'build',
+      assets: 'build',
+      fallback: null
+    })
+  }
 };
 
 export default config;
