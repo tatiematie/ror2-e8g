@@ -1,0 +1,41 @@
+<div class="heading">
+	<div class="corners">
+		<img src="/images/items/mocha.png" alt="Mocha" />
+	</div>
+	<div class="title">
+		<h2>Mocha</h2>
+		<p class="gray text">Common Item</p>
+	</div>
+</div>
+<div class="content">
+	<div class="section">
+		<h3>Description:</h3>
+		<p>
+			Gain <span class="yellow text">7.5%</span>
+			<span class="blue-gray text">(+7.5% per stack)</span>
+			<span class="yellow text">attack speed</span>
+			and <span class="blue text">7%</span> <span class="blue-gray text">(+7% per stack)</span>
+			<span class="blue text">movement speed</span>.
+		</p>
+	</div>
+	<div class="section">
+		<h3>Strategy:</h3>
+		<p class="light-gray text">
+			In spite of being half as effective, Mocha<span class="inline img"
+				>&nbsp;<img src="/images/items/mocha.png" alt="Mocha" /></span
+			>
+			can be a decent alternative to true <span class="blue text">movement speed</span> and
+			<span class="yellow text">attack speed</span>
+			items like Paul's Goat Hoof<span class="inline img"
+				>&nbsp;<img src="/images/items/pauls-goat-hoof.png" alt="Paul's Goat Hoof" /></span
+			>
+			and Solier's Syringe<span class="inline img"
+				>&nbsp;<img src="/images/items/soldiers-syringe.png" alt="Soldier's Syringe" /></span
+			>.
+		</p>
+		<p class="light-gray text">
+			It is more efficient to build into real <span class="blue text">movement speed</span> or
+			<span class="yellow text">attack speed</span> if provided the opportunity.
+		</p>
+	</div>
+</div>
