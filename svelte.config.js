@@ -9,7 +9,10 @@ const config = {
       pages: 'build',
       assets: 'build',
       fallback: null
-    })
+    }),
+    prerender: {
+      handleHttpError: 'warn' // or 'ignore' to suppress the error
+    }
   }
 };
 
