@@ -12,6 +12,8 @@
 
 	import '../app.css';
 
+	import { base } from '$app/paths';
+
 	let lastViewed = '';
 	onMount(() => {
 		lastViewed = getCookie('lastViewed');
@@ -23,7 +25,7 @@
 
 <svelte:head>
 	<title>{`ROR2 E8 Guides - ${lastViewed}`}</title>
-	<link rel="icon" href={`/images/items/${nameToID(lastViewed)}.png`} />
+	<link rel="icon" href={`${base}/images/items/${nameToID(lastViewed)}.png`} />
 </svelte:head>
 
 <main id="app">
